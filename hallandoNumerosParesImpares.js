@@ -1,30 +1,8 @@
-let array = new Array(3);
-array[0]=10;
-array[1]=22;
-array[2]=1;
-let array1 = "mario"
-let array2 = "ariom"
+/*  Desarrolle un programa que sea una funcion que 
+Halle los numeros pares y los numeros impares dentro de un array*/
 
-// console.log(array1.split('').sort().join());
-// console.log(array1.split());
-// console.log(array1.split().join());
-// console.log(array1.split("").sort());
-// console.log(array1.split('').sort().join());
-const a = array1.split('').sort().join()
-const b = array2.split('').sort().join()
-// console.log(a);
-// console.log(b);
-// if (a==b){
-//     console.log("Eres Usuario Premiun");
-// }else{
-//     console.log("Eres Usuario Premiun");
-// }
-// (a===b)?console.log("Eres Usuario Premiun 1"): console.log("No Eres Usuario Premiun 1");
 
-// const imprimir=(array3[0]%1)
-// const array3 = [1,2,3,4,5,6];
-//Hallar numeros pares y impares dentro de un array
-function buscarNumeroPar(array3){
+function buscarNumeroParImpar(array3){
     for(let i = 0; i<array3.length;i++){
         const numero= (array3[i]%2);
         if(numero== 0){
@@ -34,11 +12,15 @@ function buscarNumeroPar(array3){
         }
     };
 };
-buscarNumeroPar([13,21,3,41,53,61])
+buscarNumeroPar([13,21,3,41,53,61]);
 
 
-//Hallar si un numero es  par o impar 
-function buscarNumeroPar(num){
+
+
+/*Desarrolle un programa que sea una funcion que 
+Halle si un numero es  par o impar*/ 
+
+function buscarNumeroParImpar(num){
     for(let i = num; i==num;i++){
         const numero= (num%2);
         if(numero== 0){
@@ -48,10 +30,14 @@ function buscarNumeroPar(num){
         }
     };
 };
-buscarNumeroPar(10)
+buscarNumeroPar(10);
 
-// Hallar si cada numero es par o impar , si ambos son pares decir que son pares y si ambos son impares decir que ambos son impares
-function buscarNumeroPar(num1, num2){
+
+
+/* Desarrolle un programa que sea una funcion que 
+Halle si cada numero es par o impar , si ambos son pares decir que son pares y si ambos son impares decir que ambos son impares*/
+
+function buscarNumeroParImpar(num1, num2){
         const numero1= (num1%2);
         const numero2= (num2%2);
 
@@ -71,6 +57,6 @@ function buscarNumeroPar(num1, num2){
         }
     };
 
-buscarNumeroPar(21,11)
+buscarNumeroPar(21,11);
 
 
